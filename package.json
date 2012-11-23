@@ -1,12 +1,13 @@
 {
-  "name": "heroku-buildpack-php-template",
-  "version": "1.0.0",
-  "dependencies": {
-    "less": "*",
-    "uglify-js": "*"
-  },
-  "engines": {
-    "node": "0.8.14",
-    "npm": "1.1.65"
-  }
+    "name": "heroku-buildpack-php-template",
+    "version": "1.0.0",
+    "dependencies": {
+        "bower": "*",
+        "less": "*",
+        "uglify-js": "*"
+    },
+    "engines": {
+        "node": "0.8.14",
+        "npm": "1.1.65"
+    }
 }
