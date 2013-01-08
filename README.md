@@ -20,3 +20,7 @@ Requirements
 
     # Set the path variable to include /app/bin
     heroku config:set PATH=/usr/bin:/bin:/app/bin
+    
+    # Set the S3 bucket where your buildpack assets are
+    heroku config:set BUILDPACK_S3_BUCKET=example/foo
+    
