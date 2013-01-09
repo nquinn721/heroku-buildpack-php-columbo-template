@@ -21,12 +21,14 @@ Usage
 -----
 
 Create your heroku application
+
     mkdir [your-application-name]
     cd [your-application-name]
     git init .
     heroku apps:create [your-application-name]
     
 Set the heroku config variables:
+
     cd [your-application-name]
     # Set the S3 bucket where your buildpack assets are
     heroku config:set BUILDPACK_S3_BUCKET=example/foo
@@ -35,10 +37,12 @@ Set the heroku config variables:
     heroku config:set BUILDPACK_URL=https://github.com/taeram/heroku-buildpack-php-columbo
 
 Download a copy of the buildpack template:
+
     cd [your-application-name]
     curl -L https://github.com/taeram/heroku-buildpack-php-columbo-template/archive/master.tar.gz -o - | tar zx --strip-components=1
 
 Add the buildpack template to your repo, and deploy:
+
     cd [your-application-name]
     git add *
     git commit -am "Initial commit"
