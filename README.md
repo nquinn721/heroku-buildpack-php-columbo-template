@@ -1,17 +1,19 @@
-Heroku Buildpack PHP Template
+Columbo Buildpack PHP Template
 =============================
 
-This is the template for [taeram/heroku-buildpack-php](https://github.com/taeram/heroku-buildpack-php).
+This is the template for [taeram/heroku-buildpack-columbo-php](https://github.com/taeram/heroku-buildpack-columbo-php).
 
 Features
 --------
 
 Custom apache configuration can be added to `config/apache.conf`
 
-If you deploy a plain copy of the template, `index.php` will list the Apache
-and PHP setup.
+If you deploy a plain copy of the template, visiting the site will show you `index.php`,
+which will list the Apache and PHP configuration.
 
-NPM modules can be added to `package.json` and will be installed on deploy.
+NPM modules can be added to `package.json` in the root directory, and will be installed on deploy.
+
+Comoposer packages can be added to `composer.json` in the root directory, and will be installed on deploy.
 
 The `rollout.sh` script will be run as a part of the compile process.
 
