@@ -1,7 +1,7 @@
 Columbo Buildpack PHP Template
 =============================
 
-This is the template for [taeram/heroku-buildpack-columbo-php](https://github.com/taeram/heroku-buildpack-columbo-php).
+This is the template for [taeram/heroku-buildpack-php-columbo](https://github.com/taeram/heroku-buildpack-php-columbo).
 
 Features
 --------
