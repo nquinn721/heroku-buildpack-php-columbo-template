@@ -27,6 +27,9 @@ Create your heroku application
     git init .
     heroku apps:create [your-application-name]
     
+Enable access to config variables during the build process:
+    heroku labs:enable user-env-compile
+
 Set the heroku config variables:
 
     cd [your-application-name]
