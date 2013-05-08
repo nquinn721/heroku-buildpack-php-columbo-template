@@ -4,6 +4,9 @@
 # This script is run by the Heroku Buildpack on each deploy
 ## --------------------------------------------------------------------------
 
+# Fail fast
+set -e
+
 BUILD_DIR=$1
 CACHE_DIR=$2
 
