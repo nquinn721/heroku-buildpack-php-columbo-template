@@ -39,6 +39,9 @@ Set the heroku config variables:
     
     # Set the buildpack url
     heroku config:set BUILDPACK_URL=https://github.com/taeram/heroku-buildpack-php-columbo
+    
+    # Set your New Relic license key
+    heroku config:set NEW_RELIC_LICENSE_KEY=abcdefg1234567
 
 Download a copy of the buildpack template:
 
