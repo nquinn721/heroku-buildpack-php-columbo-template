@@ -98,3 +98,7 @@ Now you're all set to pull down a copy of the buildpack template, and deploy it 
     git commit -am "Initial commit"
     git push heroku master
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/taeram/heroku-buildpack-php-columbo-template/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
